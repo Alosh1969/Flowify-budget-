@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flowify Budget</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+      direction: rtl;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #ffcc00;
+    }
+    a {
+      color: #00d4ff;
+      text-decoration: none;
+    }
+    .lang-switch {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .lang-switch a {
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .steps {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      عربي |
+      <a href="#">English</a> |
+      <a href="#">Français</a> |
+      <a href="#">Español</a> |
+      <a href="#">Deutsch</a>
+    </div>
+
+    <h1>قالب الميزانية الذكية - Flowify Budget</h1>
+
+    <div class="steps">
+      <h2>الخطوة 1: تسجيل في Zapier</h2>
+      <p>1. اذهب إلى <a href="https://zapier.com" target="_blank">zapier.com</a> واضغط على "Sign Up".</p>
+      <p>2. استخدم حساب Google للتسجيل.</p>
+
+      <h2>الخطوة 2: إنشاء نموذج في Google Forms</h2>
+      <p>1. افتح <a href="https://forms.google.com" target="_blank">Google Forms</a> وابدأ نموذج جديد.</p>
+      <p>2. سمّه "نموذج الميزانية الذكية".</p>
+
+      <h2>الخطوة 3: ربط النموذج بـ Google Sheets</h2>
+      <p>1. من تبويب الردود، اضغط أيقونة Sheets.</p>
+      <p>2. أنشئ جدول جديد باسم "ردود نموذج الميزانية".</p>
+
+      <h2>الخطوة 4: إعداد Zap</h2>
+      <p>1. في Zapier، اضغط "Create Zap".</p>
+      <p>2. Trigger: Google Sheets → New Spreadsheet Row.</p>
+      <p>3. اختر جدول "ردود نموذج الميزانية".</p>
+
+      <h2>الخطوة 5: خطوة الذكاء الاصطناعي (اختياري)</h2>
+      <p>1. Action: Send Prompt to OpenAI.</p>
+      <p>2. حدد المعطيات المطلوبة للتحليل.</p>
+    </div>
+
+    <a href="https://zapier.com/app/editor" target="_blank">ابدأ الآن</a>
+  </div>
+</body>
+</html>
+Added landing page html
